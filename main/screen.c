@@ -15,7 +15,6 @@
 #include "driver/gpio.h"
 #include "board.h"
 #include "lvgl.h"
-// #include "ui.h"
 #include "esp_timer.h"
 #include "gt911.h"
 
