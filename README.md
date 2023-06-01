@@ -1,3 +1,2 @@
-# ZX7D00CE01S
-ZX7D00CE01S base on https://github.com/espressif/esp-idf/tree/release/v5.0
-
+# Windows_32
+A demo project for designed using LVGL for ZX7D00CE01S
