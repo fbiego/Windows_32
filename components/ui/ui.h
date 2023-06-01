@@ -143,9 +143,6 @@ void ui_event_settingsTitleListItem( lv_event_t * e);
 extern lv_obj_t *ui_settingsTitleListItem;
 extern lv_obj_t *ui_settingsListIcon;
 extern lv_obj_t *ui_settingsListLabel;
-extern lv_obj_t *ui_settingsTitleListItem1;
-extern lv_obj_t *ui_settingsListIcon1;
-extern lv_obj_t *ui_settingsListLabel1;
 extern lv_obj_t *ui_settingsTitleListItem3;
 extern lv_obj_t *ui_settingsListIcon3;
 extern lv_obj_t *ui_settingsListLabel3;
@@ -233,19 +230,18 @@ void ui_event_appStartItem2( lv_event_t * e);
 extern lv_obj_t *ui_appStartItem2;
 extern lv_obj_t *ui_appItemLabel2;
 extern lv_obj_t *ui_appItemIcon2;
-extern lv_obj_t *ui_appStartItem3;
-extern lv_obj_t *ui_appItemLabel3;
-extern lv_obj_t *ui_appItemIcon3;
-extern lv_obj_t *ui_appStartItem4;
-extern lv_obj_t *ui_appItemLabel4;
-extern lv_obj_t *ui_appItemIcon4;
-void ui_event_appStartItem5( lv_event_t * e);
-extern lv_obj_t *ui_appStartItem5;
-extern lv_obj_t *ui_appItemLabel5;
-extern lv_obj_t *ui_appItemIcon5;
 extern lv_obj_t *ui_appStartItem6;
 extern lv_obj_t *ui_appItemLabel6;
 extern lv_obj_t *ui_appItemIcon6;
+extern lv_obj_t *ui_appStartItem4;
+extern lv_obj_t *ui_appItemLabel4;
+extern lv_obj_t *ui_appItemIcon4;
+extern lv_obj_t *ui_appStartItem5;
+extern lv_obj_t *ui_appItemLabel5;
+extern lv_obj_t *ui_appItemIcon5;
+extern lv_obj_t *ui_appStartItem3;
+extern lv_obj_t *ui_appItemLabel3;
+extern lv_obj_t *ui_appItemIcon3;
 extern lv_obj_t *ui_actionPanel;
 extern lv_obj_t *ui_dateTimeLabel;
 extern lv_obj_t *ui_volumeSlider;
@@ -297,7 +293,6 @@ LV_IMG_DECLARE( ui_img_application_png);   // assets\application.png
 LV_IMG_DECLARE( ui_img_personalization_png);   // assets\personalization.png
 LV_IMG_DECLARE( ui_img_user_png);   // assets\user.png
 LV_IMG_DECLARE( ui_img_monitor_png);   // assets\monitor.png
-LV_IMG_DECLARE( ui_img_sound_png);   // assets\sound.png
 LV_IMG_DECLARE( ui_img_server_png);   // assets\server.png
 LV_IMG_DECLARE( ui_img_charge_png);   // assets\charge.png
 LV_IMG_DECLARE( ui_img_information_png);   // assets\information.png
@@ -309,8 +304,9 @@ LV_IMG_DECLARE( ui_img_wifi_icon_png);   // assets\wifi_icon.png
 LV_IMG_DECLARE( ui_img_speaker_png);   // assets\speaker.png
 LV_IMG_DECLARE( ui_img_cloudy_png);   // assets\cloudy.png
 LV_IMG_DECLARE( ui_img_search_png);   // assets\search.png
-LV_IMG_DECLARE( ui_img_rts_r_png);   // assets\rts_r.png
+LV_IMG_DECLARE( ui_img_cortana_png);   // assets\cortana.png
 LV_IMG_DECLARE( ui_img_lumia_png);   // assets\lumia.png
+LV_IMG_DECLARE( ui_img_rts_r_png);   // assets\rts_r.png
 LV_IMG_DECLARE( ui_img_bt_png);   // assets\bt.png
 LV_IMG_DECLARE( ui_img_1393274193);   // assets\flx-white-200.png
 LV_IMG_DECLARE( ui_img_473727351);   // assets\rfid-128.png
